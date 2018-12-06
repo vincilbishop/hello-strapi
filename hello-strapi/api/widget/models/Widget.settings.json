@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "widgets",
+  "info": {
+    "name": "widget",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "thingamabob": {
+      "default": "",
+      "type": "string"
+    },
+    "thingamajig": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

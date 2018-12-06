@@ -10,7 +10,7 @@
         "port": 3306,
         "database": "hello-strapi",
         "username": "root",
-        "password": "Password01"
+        "password": "password"
       },
       "options": {
         "ssl": false
