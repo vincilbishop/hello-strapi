@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/thingamabobs",
+      "handler": "Thingamabob.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/thingamabobs/count",
+      "handler": "Thingamabob.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/thingamabobs/:id",
+      "handler": "Thingamabob.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/thingamabobs",
+      "handler": "Thingamabob.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/thingamabobs/:id",
+      "handler": "Thingamabob.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/thingamabobs/:id",
+      "handler": "Thingamabob.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/thingamabobs/:id/relationships/:relation",
+      "handler": "Thingamabob.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/thingamabobs/:id/relationships/:relation",
+      "handler": "Thingamabob.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/thingamabobs/:id/relationships/:relation",
+      "handler": "Thingamabob.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
