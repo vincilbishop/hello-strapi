@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/thingamajigs",
+      "handler": "Thingamajig.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/thingamajigs/count",
+      "handler": "Thingamajig.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/thingamajigs/:id",
+      "handler": "Thingamajig.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/thingamajigs",
+      "handler": "Thingamajig.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/thingamajigs/:id",
+      "handler": "Thingamajig.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/thingamajigs/:id",
+      "handler": "Thingamajig.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/thingamajigs/:id/relationships/:relation",
+      "handler": "Thingamajig.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/thingamajigs/:id/relationships/:relation",
+      "handler": "Thingamajig.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/thingamajigs/:id/relationships/:relation",
+      "handler": "Thingamajig.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

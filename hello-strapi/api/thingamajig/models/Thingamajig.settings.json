@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "thingamajigs",
+  "info": {
+    "name": "thingamajig",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}
