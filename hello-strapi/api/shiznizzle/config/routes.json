@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/shiznizzles",
+      "handler": "Shiznizzle.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/shiznizzles/count",
+      "handler": "Shiznizzle.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/shiznizzles/:id",
+      "handler": "Shiznizzle.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/shiznizzles",
+      "handler": "Shiznizzle.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/shiznizzles/:id",
+      "handler": "Shiznizzle.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/shiznizzles/:id",
+      "handler": "Shiznizzle.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/shiznizzles/:id/relationships/:relation",
+      "handler": "Shiznizzle.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/shiznizzles/:id/relationships/:relation",
+      "handler": "Shiznizzle.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/shiznizzles/:id/relationships/:relation",
+      "handler": "Shiznizzle.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
