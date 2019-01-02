@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "shiznizzles",
+  "info": {
+    "name": "shiznizzle",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}
