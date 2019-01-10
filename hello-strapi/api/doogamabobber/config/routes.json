@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/doogamabobbers",
+      "handler": "Doogamabobber.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/doogamabobbers/count",
+      "handler": "Doogamabobber.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/doogamabobbers/:id",
+      "handler": "Doogamabobber.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/doogamabobbers",
+      "handler": "Doogamabobber.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/doogamabobbers/:id",
+      "handler": "Doogamabobber.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/doogamabobbers/:id",
+      "handler": "Doogamabobber.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/doogamabobbers/:id/relationships/:relation",
+      "handler": "Doogamabobber.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/doogamabobbers/:id/relationships/:relation",
+      "handler": "Doogamabobber.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/doogamabobbers/:id/relationships/:relation",
+      "handler": "Doogamabobber.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
