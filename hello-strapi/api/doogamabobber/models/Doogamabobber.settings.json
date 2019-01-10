@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "doogamabobbers",
+  "info": {
+    "name": "doogamabobber",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

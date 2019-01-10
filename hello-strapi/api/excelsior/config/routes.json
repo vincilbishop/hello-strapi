@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/excelsiors",
+      "handler": "Excelsior.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/excelsiors/count",
+      "handler": "Excelsior.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/excelsiors/:id",
+      "handler": "Excelsior.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/excelsiors",
+      "handler": "Excelsior.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/excelsiors/:id",
+      "handler": "Excelsior.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/excelsiors/:id",
+      "handler": "Excelsior.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/excelsiors/:id/relationships/:relation",
+      "handler": "Excelsior.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/excelsiors/:id/relationships/:relation",
+      "handler": "Excelsior.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/excelsiors/:id/relationships/:relation",
+      "handler": "Excelsior.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
