@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/busters",
+      "handler": "Buster.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/busters/count",
+      "handler": "Buster.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/busters/:id",
+      "handler": "Buster.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/busters",
+      "handler": "Buster.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/busters/:id",
+      "handler": "Buster.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/busters/:id",
+      "handler": "Buster.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/busters/:id/relationships/:relation",
+      "handler": "Buster.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/busters/:id/relationships/:relation",
+      "handler": "Buster.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/busters/:id/relationships/:relation",
+      "handler": "Buster.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
