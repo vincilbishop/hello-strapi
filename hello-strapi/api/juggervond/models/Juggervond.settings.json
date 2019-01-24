@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "juggervonds",
+  "info": {
+    "name": "juggervond",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}
