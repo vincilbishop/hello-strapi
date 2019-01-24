@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mascerunds",
+      "handler": "Mascerund.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mascerunds/count",
+      "handler": "Mascerund.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mascerunds/:id",
+      "handler": "Mascerund.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mascerunds",
+      "handler": "Mascerund.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mascerunds/:id",
+      "handler": "Mascerund.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mascerunds/:id",
+      "handler": "Mascerund.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mascerunds/:id/relationships/:relation",
+      "handler": "Mascerund.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mascerunds/:id/relationships/:relation",
+      "handler": "Mascerund.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mascerunds/:id/relationships/:relation",
+      "handler": "Mascerund.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
