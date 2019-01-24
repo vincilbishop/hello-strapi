@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "busters",
+  "info": {
+    "name": "buster",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "identifier": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

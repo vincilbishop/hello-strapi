@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/juggervonds",
+      "handler": "Juggervond.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/juggervonds/count",
+      "handler": "Juggervond.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/juggervonds/:id",
+      "handler": "Juggervond.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/juggervonds",
+      "handler": "Juggervond.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/juggervonds/:id",
+      "handler": "Juggervond.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/juggervonds/:id",
+      "handler": "Juggervond.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/juggervonds/:id/relationships/:relation",
+      "handler": "Juggervond.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/juggervonds/:id/relationships/:relation",
+      "handler": "Juggervond.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/juggervonds/:id/relationships/:relation",
+      "handler": "Juggervond.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
